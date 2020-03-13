@@ -116,7 +116,7 @@ This way, we compute:
     * **B** and **C** blocks receive Individual Mining Fee
       <img src="https://latex.codecogs.com/svg.latex?IndMiningFee_{rwd}=%20\frac{MinerFee_{rwd}}{S+1}%20\implies%20\frac{7128}{3}%20\implies%20IndMiningFee_{rwd}%20=%202376"/>
       *In this case blocks are not published late so L is 0, that is why*
-      <img src="https://latex.codecogs.com/svg.latex?IndMiningFee_{rwd}"/>
+      <img src="https://latex.codecogs.com/svg.latex?IndMiningFee\e_{rwd}"/>
       *is used in the calculation instead of*
       <img src="https://latex.codecogs.com/svg.latex?IndMiningFeeLate_{rwd}"/>
     * **A** receives
@@ -126,7 +126,7 @@ This way, we compute:
       <img src="https://latex.codecogs.com/svg.latex?IndMiningFeeLate_{rwd}=%202257"/>
       *In this case A was published late so L is not 0, that is why*
       <img src="https://latex.codecogs.com/svg.latex?IndMiningFeeLate_{rwd}"/> *is used in the calculation instead of*
-      <img src="https://latex.codecogs.com/svg.latex?IndMiningFee_{rwd}"/>
+      <img src="https://latex.codecogs.com/svg.latex?IndMiningFee\e_{rwd}"/>
 
 For this example, an assumption that there wasn’t a broken rule for any block was made. Otherwise, fees paid should have been calculated using <img src="https://latex.codecogs.com/svg.latex?IndMiningFeeLate_{rwdBroken}"/>.
 
