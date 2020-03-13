@@ -85,7 +85,7 @@ Finally, with all the previous variables computed, the payments will be performe
 Each **publisher** receives
 <img src="https://latex.codecogs.com/svg.latex?PubFee_{rwd}"/>
 The **miner of the main block** receives
-<img src="https://latex.codecogs.com/svg.latex?IndMiningFee_{rwd}"/>
+<img src="https://latex.codecogs.com/svg.latex?IndMiningFee\e_{rwd}"/>
 Also, for **each sibling**, a new amount needs to be calculated. This is, for each late block that the sibling published, it receives a punishment of ~5% of the
 <img src="https://latex.codecogs.com/svg.latex?IndMiningFee{rwd}"/>.
 The sibling is added on the block N+D for some positive value of D. A punishment for late publication is calculated for each as
