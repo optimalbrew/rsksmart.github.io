@@ -57,7 +57,7 @@ Now we present several different scenarios:
     The miner is paid 90% of the
     <img src="https://latex.codecogs.com/svg.latex?Miners_{rwd}"/>
     which is defined as
-    <img src="https://latex.codecogs.com/svg.latex?%20Miners_{rwdBroken}=Miners_{rwd}-\frac{Miners_{rwd}}{10}%20%22"/>
+    <img src="https://latex.codecogs.com/svg.latex?%20Miners_{rwdBroken}=Miners_{rwd}-\frac{Miners_{rwd}}{10}"/>
 2. There are siblings at height N.
    Each sibling will have a respective publisher and miner, so we define:
    * **Publisher Fee** (~10% of
@@ -78,7 +78,7 @@ Now we present several different scenarios:
      * No Rule was broken
        <img src="https://latex.codecogs.com/svg.latex?IndMiningFee_{rwd}=Mining_{rwd}"/>
      * Rule was broken
-       <img src="https://latex.codecogs.com/svg.latex?IndMiningFee_{rwdBroken}=Mining_{rwd}-\frac{Mining_{rwd}}{10}-L"/>
+       <img src="https://latex.codecogs.com/svg.latex?IndMiningFee_{rwdBroken}=Mining_{rwd}-\frac{Mining_{rwd}}{10}%20-%20L"/>
 
 Finally, with all the previous variables computed, the payments will be performed as follows:
 
